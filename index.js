@@ -7,6 +7,7 @@ app.get('/get_name', (req, res) => {
 })
 app.post('/save_user', (req, res) => {
     const data = req.body;
+    res.send(data)
 })
 
 app.listen(port, () => {
